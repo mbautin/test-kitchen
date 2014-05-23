@@ -18,5 +18,5 @@
 
 module Kitchen
 
-  VERSION = "1.2.2.dev"
+  VERSION = "1.2.1002"
 end
