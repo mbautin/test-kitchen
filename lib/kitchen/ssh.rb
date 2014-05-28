@@ -147,7 +147,7 @@ module Kitchen
         Errno::ECONNRESET, Errno::ENETUNREACH, Errno::EHOSTUNREACH,
         Net::SSH::Disconnect
       ]
-      retries = 10
+      retries = 30
 
       begin
         logger.debug("[SSH] opening connection to #{self}")
